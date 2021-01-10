@@ -6,4 +6,5 @@ export function manageFriends(state, action){
       return {count: state.count - 1}
     default:
       return state;
+   }
 }
